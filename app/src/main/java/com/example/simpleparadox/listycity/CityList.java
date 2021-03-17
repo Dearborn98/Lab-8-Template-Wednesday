@@ -77,4 +77,9 @@ public class CityList {
     public int countCities() {
         return cities.size();
     }
+
+    public City getCity(String name) {
+        City city = new City(name, "selector");
+        return cities.get(cities.indexOf(city));
+    }
 }
