@@ -78,8 +78,7 @@ public class CityList {
         return cities.size();
     }
 
-    public City getCity(String name) {
-        City city = new City(name, "selector");
+    public City getCity(City city) {
         return cities.get(cities.indexOf(city));
     }
 }

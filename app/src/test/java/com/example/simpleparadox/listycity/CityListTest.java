@@ -101,7 +101,7 @@ class CityListTest {
         City city = new City("test", "British Columbia");
         cityList.add(city);
 
-        City testCity = cityList.getCity("test");
+        City testCity = cityList.getCity(city);
         assertEquals(city, testCity);
     }
 }
